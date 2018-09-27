@@ -33,7 +33,7 @@ __truck__ also includes aliases for
 
 ```bash
 git clone https://github.com/pbzweihander/truck.git --depth=1 ~/.truck &&\
-  echo 'source ~/.truck/init.bash' >> ~/.bashrc
+  echo 'source ~/.truck/abbreviation.sh' >> ~/.bashrc
 ```
 
 ### Zsh with [zplug](https://github.com/zplug/zplug)
