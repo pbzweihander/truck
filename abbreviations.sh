@@ -19,16 +19,21 @@ alias cclr="cargo clean"
 alias cin="cargo install"
 alias cun="cargo uninstall"
 
-# rust-clippy
+# rustfmt
+alias cf="cargo fmt"
+
+# clippy
 alias ccl="cargo clippy"
 
 # cargo-edit
 alias ca="cargo add"
+alias cad="cargo add -D"
 alias cug="cargo upgrade"
 alias crm="cargo rm"
 
 # cargo-update
 alias ciu="cargo install-update"
+alias ciua="cargo install-update --all"
 
 # cargo-web
 alias cw="cargo web"
@@ -36,3 +41,9 @@ alias cwb="cargo web build"
 alias cwc="cargo web check"
 alias cwd="cargo web deploy"
 alias cws="cargo web start"
+
+# cargo-tree
+alias ctre="cargo tree"
+alias ctrp="cargo tree -p"
+alias ctri="cargo tree -ip"
+
