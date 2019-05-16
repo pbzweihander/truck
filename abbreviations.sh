@@ -27,8 +27,13 @@ alias ccl="cargo clippy"
 
 # cargo-edit
 alias ca="cargo add"
+alias cap="cargo add --allow-prerelease"
 alias cad="cargo add -D"
+alias cadp="cargo add -D --allow-prerelease"
+alias cab="cargo add -B"
+alias cabp="cargo add -B --allow-prerelease"
 alias cug="cargo upgrade"
+alias cugp="cargo upgrade --allow-prerelease"
 alias crm="cargo rm"
 
 # cargo-update
