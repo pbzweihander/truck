@@ -7,10 +7,15 @@ alias cn="cargo new"
 alias cnb="cargo new --bin"
 alias cnl="cargo new --lib"
 alias cc="cargo check"
-alias cca="cargo check --all-targets"
+alias cca="cargo check --all-targets --all-features"
+alias ccat="cargo check --all-targets"
+alias ccaf="cargo check --all-features"
+alias ccnd="cargo check --no-default-features"
+alias ccna="cargo check --no-default-features --all-targets"
 alias cb="cargo build"
 alias cbr="cargo build --release"
 alias ct="cargo test"
+alias ctn="cargo test --no-default-features"
 alias cr="cargo run"
 alias crr="cargo run --release"
 alias cu="cargo update"
@@ -21,9 +26,15 @@ alias cun="cargo uninstall"
 
 # rustfmt
 alias cf="cargo fmt"
+alias cfv="cargo fmt -- --verbose"
 
 # clippy
 alias ccl="cargo clippy"
+alias ccla="cargo clippy --all-targets --all-features"
+alias cclat="cargo clippy --all-targets"
+alias cclaf="cargo clippy --all-features"
+alias ccln="cargo clippy --no-default-features"
+alias cclna="cargo clippy --no-default-features --all-targets"
 
 # cargo-edit
 alias ca="cargo add"
