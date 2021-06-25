@@ -26,6 +26,7 @@ alias cun="cargo uninstall"
 
 # rustfmt
 alias cf="cargo fmt"
+alias cfa="cargo fmt --all"
 alias cfv="cargo fmt -- --verbose"
 
 # clippy
@@ -38,11 +39,12 @@ alias cclna="cargo clippy --no-default-features --all-targets"
 
 # cargo-edit
 alias ca="cargo add"
+alias cas="cargo add --sort"
 alias cap="cargo add --allow-prerelease"
-alias cad="cargo add -D"
-alias cadp="cargo add -D --allow-prerelease"
-alias cab="cargo add -B"
-alias cabp="cargo add -B --allow-prerelease"
+alias cad="cargo add --dev"
+alias cadp="cargo add --dev --allow-prerelease"
+alias cab="cargo add --build"
+alias cabp="cargo add --build --allow-prerelease"
 alias cug="cargo upgrade"
 alias cugp="cargo upgrade --allow-prerelease"
 alias crm="cargo rm"
@@ -51,15 +53,7 @@ alias crm="cargo rm"
 alias ciu="cargo install-update"
 alias ciua="cargo install-update --all"
 
-# cargo-web
-alias cw="cargo web"
-alias cwb="cargo web build"
-alias cwc="cargo web check"
-alias cwd="cargo web deploy"
-alias cws="cargo web start"
-
 # cargo-tree
 alias ctre="cargo tree"
 alias ctrp="cargo tree -p"
-alias ctri="cargo tree -ip"
-
+alias ctri="cargo tree -i"
