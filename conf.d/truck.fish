@@ -1,0 +1,61 @@
+abbr -a c "cargo"
+
+abbr -a ci "cargo init"
+abbr -a cib "cargo init --bin"
+abbr -a cil "cargo init --lib"
+abbr -a cn "cargo new"
+abbr -a cnb "cargo new --bin"
+abbr -a cnl "cargo new --lib"
+abbr -a cc "cargo check"
+abbr -a cca "cargo check --all-targets --all-features"
+abbr -a ccat "cargo check --all-targets"
+abbr -a ccaf "cargo check --all-features"
+abbr -a ccnd "cargo check --no-default-features"
+abbr -a ccna "cargo check --no-default-features --all-targets"
+abbr -a cb "cargo build"
+abbr -a cbr "cargo build --release"
+abbr -a ct "cargo test"
+abbr -a ctn "cargo test --no-default-features"
+abbr -a cr "cargo run"
+abbr -a crr "cargo run --release"
+abbr -a cu "cargo update"
+abbr -a cpb "cargo publish"
+abbr -a cclr "cargo clean"
+abbr -a cin "cargo install"
+abbr -a cun "cargo uninstall"
+
+# rustfmt
+abbr -a cf "cargo fmt"
+abbr -a cfa "cargo fmt --all"
+abbr -a cfv "cargo fmt -- --verbose"
+
+# clippy
+abbr -a ccl "cargo clippy"
+abbr -a ccla "cargo clippy --all-targets --all-features"
+abbr -a cclat "cargo clippy --all-targets"
+abbr -a cclaf "cargo clippy --all-features"
+abbr -a ccln "cargo clippy --no-default-features"
+abbr -a cclna "cargo clippy --no-default-features --all-targets"
+
+# cargo-edit
+abbr -a ca "cargo add"
+abbr -a cas "cargo add --sort"
+abbr -a cap "cargo add --allow-prerelease"
+abbr -a can "cargo add --no-default-features"
+abbr -a casn "cargo add --sort --no-default-features"
+abbr -a cad "cargo add --dev"
+abbr -a cadp "cargo add --dev --allow-prerelease"
+abbr -a cab "cargo add --build"
+abbr -a cabp "cargo add --build --allow-prerelease"
+abbr -a cug "cargo upgrade"
+abbr -a cugp "cargo upgrade --allow-prerelease"
+abbr -a crm "cargo rm"
+
+# cargo-update
+abbr -a ciu "cargo install-update"
+abbr -a ciua "cargo install-update --all"
+
+# cargo-tree
+abbr -a ctre "cargo tree"
+abbr -a ctrp "cargo tree -p"
+abbr -a ctri "cargo tree -i"
